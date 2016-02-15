@@ -20,4 +20,7 @@ docker-machine ip default
 
  - Returns the IP of the docker VM
 
-After all this, navigate to IP
+After all this, navigate to above IP in the browser.
+
+
+Note: You can install nginx locally and setup a reverse proxy to the IP of the VM and the port exposed by the container.
