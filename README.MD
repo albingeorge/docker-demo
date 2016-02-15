@@ -9,7 +9,7 @@ docker build --rm=false -t demo  .
 
 
 ```
-docker run -it -p 3000:3000 demo
+docker run -it -p 80:80 demo
 ```
 
  - This starts the docker container and starts the node server
@@ -20,4 +20,4 @@ docker-machine ip default
 
  - Returns the IP of the docker VM
 
-After all this, navigate to <ip>:3000
+After all this, navigate to IP

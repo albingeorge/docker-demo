@@ -1,3 +1,3 @@
 #!/bin/bash
 
-http-server -p 3000;
+http-server -p 80;

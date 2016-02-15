@@ -13,7 +13,7 @@ RUN mkdir /src
 # Set the working directory
 WORKDIR /src/templates
 
-EXPOSE 3000
+EXPOSE 80
 
 ADD docker.sh /src
 
